@@ -1,0 +1,27 @@
+{
+    "name": "cypress_cucumber_automation",
+    "version": "1.0.0",
+    "description": "Automation for makewithtech.com",
+    "main": "index.js",
+    "scripts": {
+        "report": "node cucumber-html-report.js",
+        "chrome-test": "npx cypress run --browser chrome",
+        "chrome-tests-run": "npm run chrome-test || npm run report"
+    },
+    "keywords": [
+        "cypress"
+    ],
+    "author": "Cypress_Cucumbers",
+    "license": "ISC",
+    "dependencies": {
+        "@badeball/cypress-cucumber-preprocessor": "^15.1.4",
+        "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+        "@deepakvishwakarma/cucumber-json-formatter": "^0.0.3",
+        "cypress": "^12.8.1",
+        "cypress-esbuild-preprocessor": "^1.0.2",
+        "cypress-xpath": "^2.0.1",
+        "esbuild": "^0.17.11",
+        "multiple-cucumber-html-reporter": "^3.3.0",
+        "typescript": "^4.9.5"
+    }
+}

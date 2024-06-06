@@ -1,0 +1,130 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "models-basic-test;as-a-user-i-see-basic-flow-of-application-for-model-search",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "As a user I see basic flow of application for model search",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I visit the app url",
+            "result": {
+              "duration": 6781000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 4,
+            "name": "I see landing home page title",
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I click on account button on menu",
+            "result": {
+              "duration": 19599000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 6,
+            "name": "I see if a user is logged in make it logout",
+            "result": {
+              "duration": 4318000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "I navigate back",
+            "result": {
+              "duration": 141000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I click on search make with tech button",
+            "result": {
+              "duration": 23039000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "I see search model page",
+            "result": {
+              "duration": 5085000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I enter \"Model Used for System Testing\" in the search field",
+            "result": {
+              "duration": 3005000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on search button",
+            "result": {
+              "duration": 2129000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "models-basic-test",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Models Basic Test",
+    "uri": "cypress\\e2e\\features\\ModelsBasicTest.feature"
+  }
+]

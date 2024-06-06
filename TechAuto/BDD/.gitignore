@@ -1,0 +1,12 @@
+report
+node_modules
+screenshots
+videos
+reports
+package-lock.json
+cypress/screenshots
+cypress/.DS_Store
+cypress/videos 2/.DS_Store
+*.zip
+*.mp4
+.DS_Store
